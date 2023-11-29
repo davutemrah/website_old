@@ -304,7 +304,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-652873149&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-527194683&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -314,7 +314,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-652873149&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-527194683&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -730,6 +730,42 @@ $$&lt;/p&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.hugoblox.com/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms of Use</title>
+      <link>https://example.com/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>https://example.com/terms/</guid>
+      <description>&lt;p&gt;Welcome to Davut Ayan&amp;rsquo;s Personal Portfolio Website. By accessing and using this website, you agree to comply with and be bound by the following terms and conditions of use. If you do not agree with any part of these terms, please do not use this website.&lt;/p&gt;
+&lt;h2 id=&#34;1-acceptance-of-terms&#34;&gt;1. Acceptance of Terms&lt;/h2&gt;
+&lt;p&gt;By using this website, you acknowledge that you have read, understood, and agree to be bound by these terms. Davut Ayan reserves the right to update or modify these terms at any time without prior notice. It is your responsibility to review these terms periodically.&lt;/p&gt;
+&lt;h2 id=&#34;2-intellectual-property&#34;&gt;2. Intellectual Property&lt;/h2&gt;
+&lt;p&gt;All content on this website, including but not limited to text, images, graphics, and code, is the property of Davut Ayan and is protected by intellectual property laws. You may not reproduce, distribute, or use any content from this site without the express written permission of Davut Ayan.&lt;/p&gt;
+&lt;h2 id=&#34;3-use-of-website&#34;&gt;3. Use of Website&lt;/h2&gt;
+&lt;p&gt;You agree to use this website for lawful purposes only and in a manner consistent with all applicable laws and regulations. You may not engage in any activity that could harm, disrupt, or interfere with the functionality of this website.&lt;/p&gt;
+&lt;h2 id=&#34;4-user-conduct&#34;&gt;4. User Conduct&lt;/h2&gt;
+&lt;p&gt;When using this website, you agree not to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Harass, threaten, or intimidate others.&lt;/li&gt;
+&lt;li&gt;Post or transmit offensive, defamatory, or inappropriate content.&lt;/li&gt;
+&lt;li&gt;Engage in any form of unauthorized advertising or spam.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;5-privacy-policy&#34;&gt;5. Privacy Policy&lt;/h2&gt;
+&lt;p&gt;Our Privacy Policy, which outlines how we collect, use, and protect your personal information, is an integral part of these terms. Please review our &lt;a href=&#34;link-to-privacy-policy&#34;&gt;Privacy Policy&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;h2 id=&#34;6-third-party-links&#34;&gt;6. Third-Party Links&lt;/h2&gt;
+&lt;p&gt;This website may contain links to third-party websites or resources. Davut Ayan is not responsible for the content or practices of these external sites. Use of third-party websites is at your own risk.&lt;/p&gt;
+&lt;h2 id=&#34;7-modifications-to-terms&#34;&gt;7. Modifications to Terms&lt;/h2&gt;
+&lt;p&gt;Davut Ayan reserves the right to modify these terms at any time. Changes will be effective immediately upon posting. Your continued use of the website after any modifications constitutes acceptance of the updated terms.&lt;/p&gt;
+&lt;h2 id=&#34;8-disclaimer&#34;&gt;8. Disclaimer&lt;/h2&gt;
+&lt;p&gt;The information on this website is provided &amp;ldquo;as is&amp;rdquo; without any warranties, expressed or implied. Davut Ayan makes no representations or warranties regarding the accuracy, completeness, or suitability of the information.&lt;/p&gt;
+&lt;h2 id=&#34;9-limitation-of-liability&#34;&gt;9. Limitation of Liability&lt;/h2&gt;
+&lt;p&gt;In no event shall Davut Ayan be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in any way connected with the use of this website.&lt;/p&gt;
+&lt;h2 id=&#34;10-governing-law&#34;&gt;10. Governing Law&lt;/h2&gt;
+&lt;p&gt;These terms are governed by the laws of State of Illinois, and any disputes relating to these terms will be subject to the exclusive jurisdiction of the courts in State of Illinois.&lt;/p&gt;
+&lt;h2 id=&#34;11-contact-information&#34;&gt;11. Contact Information&lt;/h2&gt;
+&lt;p&gt;If you have any questions or concerns regarding these terms, please contact Davut Ayan at &lt;a href=&#34;mailto:deayan@outlook.com&#34;&gt;deayan@outlook.com&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
