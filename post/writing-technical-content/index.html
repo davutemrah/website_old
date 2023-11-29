@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: November 28, 2023 --><html lang="en-us" >
+<!-- Last Published: November 29, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -942,13 +942,12 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 <h2 id="examples">Examples</h2>
 <h3 id="code">Code</h3>
 <p>Wowchemy supports a Markdown extension for highlighting code syntax. You can customize the styles under the <code>syntax_highlighter</code> option in your <code>config/_default/params.yaml</code> file.</p>
-<pre><code>```python
-import pandas as pd
-data = pd.read_csv(&quot;data.csv&quot;)
-data.head()
-```
-</code></pre>
-<p>renders as</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">```python
+</span></span><span class="line"><span class="cl">import pandas as pd
+</span></span><span class="line"><span class="cl">data = pd.read_csv(&#34;data.csv&#34;)
+</span></span><span class="line"><span class="cl">data.head()
+</span></span><span class="line"><span class="cl">```
+</span></span></code></pre></div><p>renders as</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 </span></span><span class="line"><span class="cl"><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&#34;data.csv&#34;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -970,15 +969,7 @@ data.head()
 </pre>
 </div>
 <p>renders as</p>
-<div class="markmap" style="height: 200px;">
-
-<pre>- Hugo Modules
-  - wowchemy
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal</pre>
-</div>
-
+<p><code>markmap {height=&quot;200px&quot;} - Hugo Modules   - wowchemy   - blox-plugins-netlify   - blox-plugins-netlify-cms   - blox-plugins-reveal</code></p>
 <p>A more advanced mindmap with formatting, code blocks, and math:</p>
 <div class="highlight">
 <pre class="chroma">
@@ -1035,7 +1026,7 @@ data.head()
 
 
 
-<div id="chart-527194683" class="chart"></div>
+<div id="chart-419685372" class="chart"></div>
 <script>
   (function() {
     let a = setInterval( function() {
@@ -1045,7 +1036,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json("./line-chart.json", function(chart) {
-        Plotly.plot('chart-527194683', chart.data, chart.layout, {responsive: true});
+        Plotly.plot('chart-419685372', chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1089,15 +1080,14 @@ $$
 <h3 id="diagrams">Diagrams</h3>
 <p>Wowchemy supports a Markdown extension for diagrams. You can enable this feature by toggling the <code>diagram</code> option in your <code>config/_default/params.toml</code> file or by adding <code>diagram: true</code> to your page front matter.</p>
 <p>An example <strong>flowchart</strong>:</p>
-<pre><code>```mermaid
-graph TD
-A[Hard] --&gt;|Text| B(Round)
-B --&gt; C{Decision}
-C --&gt;|One| D[Result 1]
-C --&gt;|Two| E[Result 2]
-```
-</code></pre>
-<p>renders as</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">```mermaid
+</span></span><span class="line"><span class="cl">graph TD
+</span></span><span class="line"><span class="cl">A[Hard] --&gt;|Text| B(Round)
+</span></span><span class="line"><span class="cl">B --&gt; C{Decision}
+</span></span><span class="line"><span class="cl">C --&gt;|One| D[Result 1]
+</span></span><span class="line"><span class="cl">C --&gt;|Two| E[Result 2]
+</span></span><span class="line"><span class="cl">```
+</span></span></code></pre></div><p>renders as</p>
 <div class="mermaid">graph TD
 A[Hard] -->|Text| B(Round)
 B --> C{Decision}
@@ -1105,19 +1095,18 @@ C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
 </div>
 <p>An example <strong>sequence diagram</strong>:</p>
-<pre><code>```mermaid
-sequenceDiagram
-Alice-&gt;&gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&gt;&gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&gt;&gt;Alice: Great!
-John-&gt;&gt;Bob: How about you?
-Bob--&gt;&gt;John: Jolly good!
-```
-</code></pre>
-<p>renders as</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">```mermaid
+</span></span><span class="line"><span class="cl">sequenceDiagram
+</span></span><span class="line"><span class="cl">Alice-&gt;&gt;John: Hello John, how are you?
+</span></span><span class="line"><span class="cl">loop Healthcheck
+</span></span><span class="line"><span class="cl">    John-&gt;&gt;John: Fight against hypochondria
+</span></span><span class="line"><span class="cl">end
+</span></span><span class="line"><span class="cl">Note right of John: Rational thoughts!
+</span></span><span class="line"><span class="cl">John--&gt;&gt;Alice: Great!
+</span></span><span class="line"><span class="cl">John-&gt;&gt;Bob: How about you?
+</span></span><span class="line"><span class="cl">Bob--&gt;&gt;John: Jolly good!
+</span></span><span class="line"><span class="cl">```
+</span></span></code></pre></div><p>renders as</p>
 <div class="mermaid">sequenceDiagram
 Alice->>John: Hello John, how are you?
 loop Healthcheck
@@ -1129,18 +1118,17 @@ John->>Bob: How about you?
 Bob-->>John: Jolly good!
 </div>
 <p>An example <strong>Gantt diagram</strong>:</p>
-<pre><code>```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-</code></pre>
-<p>renders as</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">```mermaid
+</span></span><span class="line"><span class="cl">gantt
+</span></span><span class="line"><span class="cl">section Section
+</span></span><span class="line"><span class="cl">Completed :done,    des1, 2014-01-06,2014-01-08
+</span></span><span class="line"><span class="cl">Active        :active,  des2, 2014-01-07, 3d
+</span></span><span class="line"><span class="cl">Parallel 1   :         des3, after des1, 1d
+</span></span><span class="line"><span class="cl">Parallel 2   :         des4, after des1, 1d
+</span></span><span class="line"><span class="cl">Parallel 3   :         des5, after des3, 1d
+</span></span><span class="line"><span class="cl">Parallel 4   :         des6, after des4, 1d
+</span></span><span class="line"><span class="cl">```
+</span></span></code></pre></div><p>renders as</p>
 <div class="mermaid">gantt
 section Section
 Completed :done,    des1, 2014-01-06,2014-01-08
@@ -1151,24 +1139,23 @@ Parallel 3   :         des5, after des3, 1d
 Parallel 4   :         des6, after des4, 1d
 </div>
 <p>An example <strong>class diagram</strong>:</p>
-<pre><code>```mermaid
-classDiagram
-Class01 &lt;|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --&gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 &lt;--&gt; C2: Cool label
-```
-</code></pre>
-<p>renders as</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">```mermaid
+</span></span><span class="line"><span class="cl">classDiagram
+</span></span><span class="line"><span class="cl">Class01 &lt;|-- AveryLongClass : Cool
+</span></span><span class="line"><span class="cl">Class03 *-- Class04
+</span></span><span class="line"><span class="cl">Class05 o-- Class06
+</span></span><span class="line"><span class="cl">Class07 .. Class08
+</span></span><span class="line"><span class="cl">Class09 --&gt; C2 : Where am i?
+</span></span><span class="line"><span class="cl">Class09 --* C3
+</span></span><span class="line"><span class="cl">Class09 --|&gt; Class07
+</span></span><span class="line"><span class="cl">Class07 : equals()
+</span></span><span class="line"><span class="cl">Class07 : Object[] elementData
+</span></span><span class="line"><span class="cl">Class01 : size()
+</span></span><span class="line"><span class="cl">Class01 : int chimp
+</span></span><span class="line"><span class="cl">Class01 : int gorilla
+</span></span><span class="line"><span class="cl">Class08 &lt;--&gt; C2: Cool label
+</span></span><span class="line"><span class="cl">```
+</span></span></code></pre></div><p>renders as</p>
 <div class="mermaid">classDiagram
 Class01 <|-- AveryLongClass : Cool
 Class03 *-- Class04
@@ -1185,17 +1172,16 @@ Class01 : int gorilla
 Class08 <--> C2: Cool label
 </div>
 <p>An example <strong>state diagram</strong>:</p>
-<pre><code>```mermaid
-stateDiagram
-[*] --&gt; Still
-Still --&gt; [*]
-Still --&gt; Moving
-Moving --&gt; Still
-Moving --&gt; Crash
-Crash --&gt; [*]
-```
-</code></pre>
-<p>renders as</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">```mermaid
+</span></span><span class="line"><span class="cl">stateDiagram
+</span></span><span class="line"><span class="cl">[*] --&gt; Still
+</span></span><span class="line"><span class="cl">Still --&gt; [*]
+</span></span><span class="line"><span class="cl">Still --&gt; Moving
+</span></span><span class="line"><span class="cl">Moving --&gt; Still
+</span></span><span class="line"><span class="cl">Moving --&gt; Crash
+</span></span><span class="line"><span class="cl">Crash --&gt; [*]
+</span></span><span class="line"><span class="cl">```
+</span></span></code></pre></div><p>renders as</p>
 <div class="mermaid">stateDiagram
 [*] --> Still
 Still --> [*]
@@ -1599,8 +1585,10 @@ Crash --> [*]
 
 <p class="powered-by">
   
+  <a href="/privacy/">Privacy Policy</a>
   
   
+   &middot; 
   <a href="/terms/">Terms of Use</a>
   
 </p>
